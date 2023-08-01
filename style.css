@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Lato:wght@300&family=Nunito&family=Nunito+Sans&family=Outfit:wght@400;700&family=PT+Serif&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.figure {
+  width: 90%;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  font-size: clamp(0.8rem, 1.5vw, 1rem);
+}
+
+.container {
+  margin-top: 3.13rem;
+  background-color: hsl(0, 0%, 100%);
+  display: grid;
+  place-content: center;
+  width: clamp(17.9rem, 35.5vw, 21.9rem);
+  height: clamp(27.8rem, 55.4vw, 33.8rem);
+  border-radius: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.footer {
+  color: hsl(220, 15%, 55%);
+  margin: 1rem;
+  text-align: center;
+}
+
+.attribution {
+  font-size: clamp(0.5rem, 1.2vw, 0.7rem);
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
